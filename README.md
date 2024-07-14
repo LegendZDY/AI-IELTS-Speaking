@@ -11,6 +11,38 @@
 5. 模型评估：在雅思口语测试问题和答案测试集上评估所开发模型的性能。
 6. 模型部署：将开发的模型部署为 Web 应用程序或移动应用程序供用户使用。
 
+# git 仓库使用说明
+
+```
+git clone https://github.com/cat991/a1_ielts_speaking.git
+```
+## 创建分支
+
+```
+git branch <分支名>
+```
+
+## 上传代码
+
+```
+git add .
+git commit -m "提交说明"
+git push origin <分支名>
+```
+
+## 创建 Pull Request
+
+```
+git pull origin <分支名>
+```
+
+## 合并分支
+
+```
+git checkout master
+git merge <分支名>
+```
+
 # 产品文档
 
 **请将调研内容上传到productManager文件夹内**
