@@ -14,7 +14,7 @@
 # git 仓库使用说明
 
 ```
-git clone https://github.com/cat991/a1_ielts_speaking.git
+git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
 ```
 ## 创建分支
 
