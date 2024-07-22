@@ -13,5 +13,8 @@
     "@vant/nuxt": "^1.0.5",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
   }
 }

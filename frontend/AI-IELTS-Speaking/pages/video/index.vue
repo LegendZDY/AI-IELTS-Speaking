@@ -3,7 +3,10 @@
 </script>
 
 <template>
-    <h2>视频页</h2>
+    <van-sticky>
+        <AppHeader />
+
+    </van-sticky>
 </template>
 
 <style scoped> 

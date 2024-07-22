@@ -9,16 +9,20 @@ useSeoMeta({
 
 <template>
   <!-- 页面顶部导航栏 -->
-  <NuxtLink to="/"> 首页 </NuxtLink>
-  <NuxtLink to="/video"> 视频页 </NuxtLink>
+  <!-- <NuxtLink to="/"> 首页 </NuxtLink>
+  <NuxtLink to="/video"> 视频页 </NuxtLink> -->
   <!-- Nuxt 基于路由的动态组件 -->
   <!-- Nuxt 页面路由，相当于 RouterView -->
-  <NuxtPage />
+  <NuxtPage :keepalive="{ max: 10 }" />
 </template>
 
-<style>
+<style lang="scss">
+// 基础样式
+@import './assets/styles/base.scss';
+// 字体图标
+@import './assets/styles/iconfont.scss';
 :root {
-  /* CSS 变量设置组件主题色 */
-  --van-primary-color: #FB7299 !important;
+  /* CSS 变量设置组件库主题 */
+  --van-primary-color: #fb7299 !important;
 }
 </style>
