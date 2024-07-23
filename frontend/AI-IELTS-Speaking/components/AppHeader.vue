@@ -3,16 +3,10 @@
 <template>
   <!-- 公共头部 -->
   <header class="app-header">
-    <NuxtLink class="logo" to="/">
-      <i class="iconfont Navbar_logo"></i>
-    </NuxtLink>
-    <a class="search" href="#">
-      <i class="iconfont ic_search_tab"></i>
+    <a class="logo" href="#">
+      <img src="@/assets/images/user.jpg" />
     </a>
-    <a class="face" href="#">
-      <img src="@/assets/images/login.png" />
-    </a>
-    <div class="down-app">下载 APP</div>
+    <van-icon name="like-o" size="25px" />
   </header>
 </template>
 
@@ -29,30 +23,6 @@
       color: #00C16A;
       font-size: 28px;
     }
-  }
-  .search {
-    padding: 0 8px;
-    .ic_search_tab {
-      color: #ccc;
-      font-size: 22px;
-    }
-  }
-  .face {
-    padding: 0 15px;
-    img {
-      width: 24px;
-      height: 24px;
-    }
-  }
-  .down-app {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00C16A;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px 10px;
   }
 }
 </style>

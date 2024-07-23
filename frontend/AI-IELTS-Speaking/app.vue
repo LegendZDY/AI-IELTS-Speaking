@@ -19,8 +19,6 @@ useSeoMeta({
 <style lang="scss">
 // 基础样式
 @import './assets/styles/base.scss';
-// 字体图标
-@import './assets/styles/iconfont.scss';
 :root {
   /* CSS 变量设置组件库主题 */
   --van-primary-color: #fb7299 !important;
