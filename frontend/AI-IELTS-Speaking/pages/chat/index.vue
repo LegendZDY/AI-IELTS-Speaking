@@ -41,7 +41,7 @@ const messages = ref([]);
 const textInput = ref('');
 const isVoiceInput = ref(false);
 const voiceButtonWidth = ref('50%'); // 按钮的初始宽度
-const backgroundGif = ref('/cambly4.png');
+const backgroundGif = ref('/teach.png');
 let recorder;
 let audioBlob;
 
