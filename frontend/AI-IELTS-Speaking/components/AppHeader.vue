@@ -6,7 +6,7 @@
     <a class="logo" href="#">
       <img src="@/assets/images/user.jpg" class="logo-img" />
     </a>
-    <van-icon name="like-o" size="25px" />
+    <van-icon name="award-o" size="25px" />
   </header>
 </template>
 

@@ -3,13 +3,14 @@
         <div class="header">
             <AppHeader />
         </div>
-        <div class="messages">
+        <div class="messages" :style="{ backgroundImage: `url(${backgroundGif})` }">
             <div v-for="(msg, index) in messages" :key="index" class="message">
                 {{ msg }}
             </div>
         </div>
         <div class="input-area">
             <van-button
+                round
                 class="voice-button"
                 :style="{ width: isVoiceInput ? voiceButtonWidth : '50%' }"
                 @touchstart="startVoiceInput"
@@ -40,6 +41,7 @@ const messages = ref([]);
 const textInput = ref('');
 const isVoiceInput = ref(false);
 const voiceButtonWidth = ref('50%'); // 按钮的初始宽度
+const backgroundGif = ref('/cambly4.png');
 let recorder;
 let audioBlob;
 
