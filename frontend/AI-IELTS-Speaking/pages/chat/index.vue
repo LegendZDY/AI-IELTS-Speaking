@@ -1,8 +1,5 @@
 <template>
     <div class="chat-container">
-        <div class="header">
-            <AppHeader />
-        </div>
         <div class="messages" :style="{ backgroundImage: `url(${backgroundGif})` }">
             <div v-for="(msg, index) in messages" :key="index" class="message">
                 {{ msg }}
@@ -27,9 +24,7 @@
             />
             <van-button v-if="!isVoiceInput" @click="sendText">发送</van-button>
         </div>
-        <div class="bottom-menu">
-            <AppBottom />
-        </div>
+        
     </div>
 </template>
   
@@ -111,7 +106,7 @@ try {
   /* 容器样式，可以根据需要设置高度、宽度、边距等 */
   display: flex;
   flex-direction: column;
-  height: 100vh; /* 假设容器占据整个视口高度 */
+  height: 91vh; /* 假设容器占据整个视口高度 */
   padding: 16px; /* 添加一些内边距，使内容不会紧贴边缘 */
 }
 .messages {

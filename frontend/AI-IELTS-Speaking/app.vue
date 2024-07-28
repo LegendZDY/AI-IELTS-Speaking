@@ -6,8 +6,14 @@ useSeoMeta({
 </script>
 
 <template>
+  <div class="header">
+    <AppHeader />
+  </div>
   <div id="app">
     <NuxtPage />
+  </div>
+  <div class="bottom-menu">
+    <AppBottom />
   </div>
 </template>
 

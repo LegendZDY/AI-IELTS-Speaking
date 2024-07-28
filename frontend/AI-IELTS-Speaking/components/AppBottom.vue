@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-const active = ref("");
 </script>
 
 <template>
   <!-- 公共头部 -->
-<van-tabbar class="bottom-tabbar" v-model="active" route>
+<van-tabbar class="bottom-tabbar" route>
     <van-tabbar-item name="card" to="/card"  icon="card">场景</van-tabbar-item>
     <van-tabbar-item name="chat" to="/chat" icon="chat">对话</van-tabbar-item>
     <van-tabbar-item name="friends" to="/friends" icon="friends">朋友</van-tabbar-item>

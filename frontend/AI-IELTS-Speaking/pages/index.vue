@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    <AppHeader />
-    <AppBottom />
+    
 </template>
 
 <style lang="scss">

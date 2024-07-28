@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <AppHeader />
+    
     <div class="card-container">
         <van-card
             desc="AI-IELTS Speaking 雅思口语训练"
@@ -36,7 +36,7 @@
             thumb="/cambly6.png"
         />
     </div>
-    <AppBottom />
+    
 </template>
 
 <style lang="scss">

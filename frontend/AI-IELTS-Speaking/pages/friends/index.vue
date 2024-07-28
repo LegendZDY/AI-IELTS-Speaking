@@ -25,8 +25,7 @@ const onSelect = (contact) => showToast('选择' + contact.id);
 </script>
 
 <template>
-    <AppHeader />
-    <div class="card-container">
+    <div class="friends-container">
         <van-contact-list
             v-model="chosenContactId"
             :list="list"
@@ -35,11 +34,13 @@ const onSelect = (contact) => showToast('选择' + contact.id);
             @edit="onEdit"
             @select="onSelect"
         />
-
     </div>
-    <AppBottom />
 </template>
 
 <style lang="scss">
+.friends-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 </style>
