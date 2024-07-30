@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vant/nuxt": "^1.0.5",
+    "nuxt": "^3.12.4",
+    "recordrtc": "^5.6.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.77.8"
+  }
+}
