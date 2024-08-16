@@ -1,5 +1,5 @@
 <template>
-    <div class="chat-container">
+    <!-- <div class="chat-container">
         <div class="messages" :style="{ backgroundImage: `url(${backgroundGif})` }">
             <div v-for="(msg, index) in messages" :key="index" class="message">
                 {{ msg }}
@@ -25,6 +25,9 @@
             <van-button v-if="!isVoiceInput" @click="sendText">发送</van-button>
         </div>
         
+    </div> -->
+    <div class="chat-container">
+        <iframe src="http://192.168.0.138:8501" width="100%" height="100%" frameborder="0" scrolling="no" style="margin-left: auto; margin-right: auto; display: block;"></iframe>
     </div>
 </template>
   
