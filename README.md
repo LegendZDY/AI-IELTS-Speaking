@@ -17,6 +17,10 @@
 
 # Overview
 
+<p align="center">
+  <img src="doc/demo1.jpg" alt="sponsor" width=100%>
+</p>
+
 The project aims to develop an artificial intelligence model that can generate high-quality IELTS speaking test questions and answers. This project is based on the following steps:
 
 1. Data collection: Collect a large dataset of IELTS speaking test questions and answers from various sources.
