@@ -53,12 +53,12 @@ git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
 
 ## dashboard page
 <p align="center">
-  <img src="doc/demo1.jpg" alt="sponsor" width=30%>
+  <img src="doc/demo1.jpg" alt="sponsor" width=100%>
 </p>
 
 ## chat page
 <p align="center">
-  <img src="doc/demo1.jpg" alt="sponsor" width=30%>
+  <img src="doc/demo1.jpg" alt="sponsor" width=100%>
 </p>
 
 ## run the app
