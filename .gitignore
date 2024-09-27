@@ -1,0 +1,5 @@
+.env
+config/
+__pycache__/
+.streamlit/
+version1/

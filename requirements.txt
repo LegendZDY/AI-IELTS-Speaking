@@ -1,0 +1,14 @@
+streamlit
+pyautogen
+ipykernel
+numpy
+pydub
+av
+twilio
+ffmpeg
+spark_ai_python
+streamlit_webrtc
+streamlit-audiorecorder
+streamlit-extras
+websocket
+websocket-client==1.8.0

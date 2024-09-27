@@ -1,56 +1,53 @@
-# AI IELTS Speaking 星火竞赛项目
+# AI IELTS Speaking SparkAI Competition Project
 
-# 简介
+# Table of Contents
 
-该项目旨在开发一种可以生成高质量雅思口语测试问题和答案的人工智能模型。该项目基于以下步骤：
+<!-- TOC -->
 
-1. 数据收集：从各种来源收集大量雅思口语测试问题和答案数据集。
-2. 数据预处理：预处理收集的数据以删除任何不相关的信息并清理数据。
-3. 数据增强：通过应用同义词、释义和回译等各种技术生成新问题和答案来增强数据集。
-4. 模型开发：开发一种可以生成高质量雅思口语测试问题和答案的深度学习模型。
-5. 模型评估：在雅思口语测试问题和答案测试集上评估所开发模型的性能。
-6. 模型部署：将开发的模型部署为 Web 应用程序或移动应用程序供用户使用。
+- [AI IELTS Speaking SparkAI Competition Project](#ai-ielts-speaking-sparkai-competition-project)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Usage](#usage)
 
-# git 仓库使用说明
+<!-- /TOC -->
+
+# Overview
+
+The project aims to develop an artificial intelligence model that can generate high-quality IELTS speaking test questions and answers. This project is based on the following steps:
+
+1. Data collection: Collect a large dataset of IELTS speaking test questions and answers from various sources.
+2. Data preprocessing: Preprocess the collected data to remove any irrelevant information and clean the data.
+3. Data augmentation: Enhance the dataset by applying various techniques such as synonyms, definitions, and back translation to generate new questions and answers.
+4. Model development: Develop a deep learning model that can generate high-quality IELTS speaking test questions and answers.
+5. Model evaluation: Evaluate the performance of the developed model on the IELTS speaking test question and answer test set.
+6. Model deployment: Deploy the developed model as a web application or mobile application for user use.
 
 ```
 git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
 ```
-## 创建分支
+
+# Requirements
+
+1. Python 3.12+
+2. Python modules:
+   - streamlit
+   - pyautogen
+   - ipykernel
+   - numpy
+   - pydub
+   - av
+   - twilio
+   - ffmpeg
+   - spark_ai_python
+   - streamlit_webrtc
+   - streamlit-audiorecorder
+   - streamlit-extras
+   - websocket
+   - websocket-client==1.8.0
+
+# Usage
 
 ```
-git branch <分支名>
+streamlit run app.py
 ```
-
-## 上传代码
-
-```
-git add .
-git commit -m "提交说明"
-git push origin <分支名>
-```
-
-## 创建 Pull Request
-
-```
-git pull origin <分支名>
-```
-
-## 合并分支
-
-```
-git checkout master
-git merge <分支名>
-```
-
-# 产品文档
-
-**请将调研内容上传到productManager文件夹内**
-
-# 前端文档
-
-**请将前端代码上传到frontend文件夹内**
-
-# 后端文档
-
-**请将后端代码上传到backend文件夹内**
