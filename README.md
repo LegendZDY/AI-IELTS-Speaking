@@ -9,6 +9,9 @@
 - [Overview](#overview)
 - [Requirements](#requirements)
 - [Usage](#usage)
+    - [dashboard page](#dashboard-page)
+    - [chat page](#chat-page)
+    - [run the app](#run-the-app)
 
 <!-- /TOC -->
 
@@ -48,6 +51,17 @@ git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
 
 # Usage
 
+## dashboard page
+<p align="center">
+  <img src="doc/demo1.jpg" alt="sponsor" width=30%>
+</p>
+
+## chat page
+<p align="center">
+  <img src="doc/demo1.jpg" alt="sponsor" width=30%>
+</p>
+
+## run the app
 ```
 streamlit run app.py
 ```
