@@ -47,7 +47,6 @@ git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
    - twilio
    - ffmpeg
    - spark_ai_python
-   - streamlit_webrtc
    - streamlit-audiorecorder
    - streamlit-extras
    - websocket
