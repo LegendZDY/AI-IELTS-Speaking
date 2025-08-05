@@ -39,7 +39,7 @@ git clone https://github.com/LegendZDY/AI-IELTS-Speaking.git
 1. Python 3.12+
 2. Python modules:
    - streamlit
-   - pyautogen
+   - ag2
    - ipykernel
    - numpy
    - pydub

@@ -1,5 +1,5 @@
 streamlit
-pyautogen
+ag2
 ipykernel
 numpy
 pydub
